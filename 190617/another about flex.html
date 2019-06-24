@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container{
+        display:felx;
+        felx-direction:column;
+        width: 700px;
+        border:1px solid gray;
+      }
+      header{
+        border-bottom:3px solid grey;
+        padding-left:20px;
+      }
+      footer{
+        border-top:1px solid gray;
+        padding:20px;
+        text-align: center;
+      }
+      .content{
+        display:flex;
+        flex-grow: 1;
+      }
+      .content nav{
+        border-right:2px solid gray;
+      }
+      .content aside{
+        border-left:2px solid gray;
+      }
+      nav, aside{
+        flex-basis: 150px;
+        felx-shrink: 0;
+      }
+      main{
+        padding:15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Hallo!</h1>
+      </header>
+      <section class="content">
+        <nav>
+          <ul>
+            <li>Markus</li>
+            <li>Peter</li>
+            <li>Weinmann</li>
+          </ul>
+        </nav>
+        <main>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum sint modi in, commodi recusandae quam ut delectus eveniet maxime, nemo hic nesciunt voluptatum facilis ipsam beatae obcaecati doloremque vel aliquid tenetur explicabo voluptatem et quod tempore. Odit suscipit fugit eveniet provident, amet voluptates atque vero repellat repudiandae sit aperiam aut architecto harum eum iusto eaque a soluta vitae similique reprehenderit quam fuga? Harum sunt adipisci ad nam labore cupiditate nemo quasi cumque? Quas quae cum aut expedita sit accusantium delectus, deleniti illum pariatur libero aperiam voluptates illo debitis mollitia ullam ad. Doloribus modi eaque eius eveniet non nam cupiditate praesentium, sapiente ipsa magni. Atque repellat ratione, ex ullam voluptatum obcaecati, blanditiis repellendus quis aperiam quod autem maxime quae voluptates ipsum rerum dicta, nobis voluptas laborum tempora eos dolor aspernatur quaerat minima? Nisi officiis, libero cum facere veritatis, repellat voluptatibus facilis veniam magni modi fugiat blanditiis laudantium illo.
+        </main>
+        <aside>
+          AD
+        </aside>
+      </section>
+      <footer>
+        <a href="https://www.naver.com">네이버</a>
+      </footer>
+    </div>
+  </body>
+</html>
